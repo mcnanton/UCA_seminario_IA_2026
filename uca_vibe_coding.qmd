@@ -12,6 +12,7 @@ format:
     transition: fade
     embed-resources: true
     # logo: logo.png
+output-file: index.html
 ---
 
 ## Sobre mí {.smaller .nostretch}

@@ -1,5 +1,7 @@
 project:
-  title: "uca_vibe_coding"
+  type: default
+  output-dir: docs
+  render:
+    - uca_vibe_coding.qmd
 
 editor: visual
-

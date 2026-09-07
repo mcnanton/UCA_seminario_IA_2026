@@ -297,10 +297,11 @@ Riesgos nuevos: qué datos se envían a plataformas y modelos comerciales de man
 
 ## Shadow AI: el caso Samsung (ojo: 2023) {.smaller}
 
--   **11 de marzo**: Samsung levanta la prohibición de usar ChatGPT que regía para sus empleados
--   **Filtraciones**: un ingeniero pega el código fuente completo de un programa de su base de datos de semiconductores para pedir una corrección; otro hace lo mismo con el código de un equipo defectuoso; un tercero sube una reunión entera para que le arme las minutas
+-   **2022**: lanzamiento ChatGPT
+-   **Marzo 2023**: Samsung levanta una restricción previa y habilita ChatGPT
+-   **Marzo-Abril 2023**: un ingeniero pega el código fuente completo de un programa de su base de datos de semiconductores para pedir una corrección; otro hace lo mismo con el código de un equipo defectuoso; un tercero sube una reunión entera para que le arme las minutas
 -   **Medida de emergencia**: limitación de largo de prompts
--   **Principios de mayo**: vuelve la prohibición, ahora para toda herramienta de IA generativa. El motivo, según el memo interno: lo que se transmite queda en servidores externos, es difícil de recuperar o borrar y podría terminar expuesto a otros usuarios
+-   **Mayo**: vuelve la prohibición, ahora para toda herramienta de IA generativa. El motivo, según memo interno: lo que se transmite queda en servidores externos, es difícil de recuperar o borrar y podría terminar expuesto a otros usuarios
 
 ::: {.fragment style="margin-top: 0.8em; text-align: center; font-style: italic;"}
 Nadie quiso filtrar nada: cada uno estaba resolviendo un problema de trabajo con la herramienta que tenía a mano

@@ -164,23 +164,62 @@ Si corre en infra propia, el dato no sale de la institución.
 :::
 :::::
 
-## En resumen: autonomía y velocidad
+## En resumen: autonomía y velocidad {.nostretch}
 
--   Prototipos en dias u horas
+::::: columns
+::: {.column width="45%"}
+
+::: {style="margin-top: 2em;"}
+-   Prototipos en días u horas
 -   Iteraciones más rápidas
 -   Menos (o nada de) intermediarios
-
-## Entre prototipo y producción
-
-Algunas preguntas que suelen presentarse luego:
-
-::: incremental
--   ¿Cómo integro esto en la plataforma de mi institución?
--   ¿Cómo integro al sistema (UI y BBDD) herramientas específicas (login de usuarios institucionales, calendarización, otras plataformas)?
--   ¿Cómo lo pago cuando supero los niveles del plan gratuito? ¿O cuando cambian los términos del servicio?
--   ¿Cómo sé que los datos que ingresan mis usuarios (o los que yo ingresé) están seguros?
--   ¿Qué tan difícil es levantar esto de 0 en mi organización?
 :::
+
+:::
+
+::: {.column width="55%"}
+![](img/vibrant_carousel.png){fig-align="center" width="50%"}
+:::
+:::::
+
+## Entre prototipo y producción (1/2) {.smaller .nostretch}
+
+::::: columns
+::: {.column width="55%"}
+Algunas preguntas que suelen presentarse:
+
+::: {.incremental}
+-   ¿Cómo integro esto en la plataforma de mi institución?
+-   ¿Cómo integro herramientas específicas: login institucional, calendarización, otras plataformas?
+-   ¿Cómo lo pago cuando supero el plan gratuito o cambian los términos del servicio?
+:::
+:::
+
+::: {.column width="45%"}
+:::: {style="margin-top: 1.5em;"}
+![](img/rubik.png){fig-align="center" width="75%"}
+::::
+:::
+:::::
+
+## Entre prototipo y producción (2/2) {.smaller .nostretch}
+
+::::: columns
+::: {.column width="55%"}
+:::: {style="font-size: 1.15em;"}
+::: {.incremental}
+-   ¿Cómo sé que los datos que ingresan mis usuarios (o los que yo ingresé) están seguros?
+-   ¿Qué tan difícil es levantar esto de cero en mi organización?
+:::
+::::
+:::
+
+::: {.column width="45%"}
+:::: {style="margin-top: 1.5em;"}
+![](img/rubik.png){fig-align="center" width="75%"}
+::::
+:::
+:::::
 
 # 2 - Aprovechar la autonomía sin generar(nos) un problema
 
@@ -271,11 +310,19 @@ Nadie quiso filtrar nada: cada uno estaba resolviendo un problema de trabajo con
 Fuentes: [The Register, 6/4/2023](https://www.theregister.com/2023/04/06/samsung_reportedly_leaked_its_own) · [Gizmodo, 4/2023](https://gizmodo.com/chatgpt-ai-samsung-employees-leak-data-1850307376) · [Bloomberg, 2/5/2023](https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak)
 :::
 
-## Por qué aparece Shadow AI en el 2026
+## Por qué aparece Shadow AI en el 2026 {.smaller .nostretch}
 
+::::: {.columns style="display: flex; align-items: center;"}
+::: {.column width="55%"}
 -   Organizaciones sin equipo de IT dedicado (o sin disponibilidad para equipos interesados en IA)
--   Falta de financiación para IA
+-   Falta de financiación para IA institucional
 -   Falta de conocimiento técnico para desplegar IAs en un marco de gobernanza institucional
+:::
+
+::: {.column width="45%"}
+![](img/open.png){fig-align="center" width="80%"}
+:::
+:::::
 
 ## Dónde puede salir el dato {.smaller}
 
@@ -369,7 +416,7 @@ Fuentes:\
 
 # Reflexiones y preguntas clave
 
-## Si lo que hacés con IA va a tener impacto real 
+## Si lo que hacés con IA va a tener impacto real
 
 Cualquier activo digital que afecte personas, proyectos o productos de una investigación requiere evaluar:
 
@@ -436,5 +483,5 @@ Dónde se almacenan los datos es una decisión
 
 ::: {style="text-align: center; margin-top: 1.5em; font-size: 1.2em;"}
 **María Cristina Nanton**\
-[mcnanton@gmail.com](mailto:mcnanton@gmail.com)
+[mcnanton\@gmail.com](mailto:mcnanton@gmail.com)
 :::

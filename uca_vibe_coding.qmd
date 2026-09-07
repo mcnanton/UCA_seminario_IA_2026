@@ -176,8 +176,8 @@ Algunas preguntas que suelen presentarse luego:
 
 ::: incremental
 -   ¿Cómo integro esto en la plataforma de mi institución?
--   ¿Cómo integro el sistema (UI y BBDD) generado con herramientas específicas (medios de pago, calendarización, otras plataformas)?
--   ¿Cómo lo pago cuando supero los niveles del plan gratuito?
+-   ¿Cómo integro al sistema (UI y BBDD) herramientas específicas (login de usuarios institucionales, calendarización, otras plataformas)?
+-   ¿Cómo lo pago cuando supero los niveles del plan gratuito? ¿O cuando cambian los términos del servicio?
 -   ¿Cómo sé que los datos que ingresan mis usuarios (o los que yo ingresé) están seguros?
 -   ¿Qué tan difícil es levantar esto de 0 en mi organización?
 :::
@@ -369,9 +369,9 @@ Fuentes:\
 
 # Reflexiones y preguntas clave
 
-## No todo necesita convertirse en software institucional
+## Si lo que hacés con IA va a tener impacto real 
 
-Pero si tu objetivo es una herramienta de impacto real, es importante tener en cuenta
+Cualquier activo digital que afecte personas, proyectos o productos de una investigación requiere evaluar:
 
 -   Sostenibilidad a mediano (o corto!) plazo
 -   Seguridad, sensiblidad y riesgo institucional

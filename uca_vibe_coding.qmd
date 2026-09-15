@@ -8,7 +8,7 @@ format:
   revealjs:
     theme: simple
     slide-number: true
-    footer: "Seminario científico de BIOMED"
+    footer: "Seminario científico de BIOMED · [English version](en.html)"
     transition: fade
     embed-resources: true
     # logo: logo.png
@@ -127,7 +127,7 @@ Si corre en infra propia, el dato no sale de la institución.
 
 ::::: columns
 ::: {.column width="55%"}
-- Un chat y una vista previa en vivo:: describís lo que querés en lenguaje natural y la plataforma genera el **frontend** y, según cuál sea, también **backend, base de datos y login**, y lo publica con un clic
+- Un chat y una vista previa en vivo: describís lo que querés en lenguaje natural y la plataforma genera el **frontend** y, según cuál sea, también **backend, base de datos y login**, y lo publica con un clic
 - No hay nada que instalar ni *programar*: el resultado es un producto usable y accesible via URL pública
 - Ejemplos: **Lovable** | **Base44** | **Bolt.new** | **Replit** |**Claude (artifacts)** | ....
 :::
@@ -424,7 +424,7 @@ Cualquier activo digital que afecte personas, proyectos o productos de una inves
 ##  {.center}
 
 ::: {style="font-size: 2em; font-weight: bold;"}
-Pero, ademas..
+Pero, además..
 :::
 
 ## No seas un «meat proxy» {.smaller}
@@ -436,7 +436,7 @@ Adelante, consultá a la IA. Pero no te limites a reenviar lo que te devuelve. L
 :::
 
 ::: {style="text-align: right; font-size: 0.8em; margin-top: 0.4em;"}
-— Niklas Gruhn, «Don't be a meat proxy», 3 de agosto de 2026 (traducción propia)
+— Niklas Gruhn, «[Don't be a meat proxy](https://gruhn.me/blog/2026-08-03/)», 3 de agosto de 2026 (traducción propia)
 :::
 
 ##  {.center}

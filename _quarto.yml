@@ -3,5 +3,6 @@ project:
   output-dir: docs
   render:
     - uca_vibe_coding.qmd
+    - uca_vibe_coding_en.qmd
 
 editor: visual

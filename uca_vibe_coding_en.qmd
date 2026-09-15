@@ -1,0 +1,481 @@
+---
+title: "Vibe coding and generative AI"
+subtitle: "Autonomy, sensitive data and sustainability in research settings"
+author: "María Cristina Nanton"
+date: 2026-09-07
+date-format: long
+lang: en
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    footer: "BIOMED Scientific Seminar · [Versión en español](index.html)"
+    transition: fade
+    embed-resources: true
+    # logo: logo.png
+output-file: en.html
+---
+
+## About me {.smaller .nostretch}
+
+:::::::: columns
+::: {.column width="30%"}
+![](img/perfil.jpg){width="270px" style="border-radius: 50%; aspect-ratio: 1; object-fit: cover;"}
+:::
+
+:::::: {.column width="70%"}
+::::: {style="padding-left: 1em;"}
+[**María Cristina Nanton**]{style="font-size: 1.6em;"}
+
+**Developer**\
+Health Ministry @ Buenos Aires \| The Global Health Network
+
+::: {style="color: #555; line-height: 1.5;"}
+Data science in the public sector\
+Data-driven projects in a global health research network
+:::
+
+::: {style="margin-top: 1em; font-size: 0.85em;"}
+[mcnanton\@gmail.com](mailto:mcnanton@gmail.com) \| [Linkedin](https://www.linkedin.com/in/mar%C3%ADa-cristina-n-920170126/) \| [Web](https://mcnanton.github.io/)
+:::
+:::::
+::::::
+::::::::
+
+# Vibe coding...
+
+## ... vibe coding? {.smaller}
+
+::: {style="font-style: italic; border-left: 6px solid #999; padding-left: 0.8em; margin-top: 0.4em;"}
+There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and **forget that the code even exists**. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. \[…\]
+
+I ask for the dumbest things like "decrease the padding on the sidebar by half" because I'm too lazy to find it. I "Accept All" always, **I don't read the diffs anymore**. When I get error messages I just copy paste them in with no comment, usually that fixes it.  \[…\]
+
+I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and **it mostly works**.
+:::
+
+::: {style="text-align: right; font-size: 0.8em; margin-top: 0.8em;"}
+— Andrej Karpathy, Twitter, February 2025 (emphasis mine)
+:::
+
+# 1 - “We built something and it *works*”
+
+## AI *within everyone's reach*
+
+Generative AI platforms that give access to advanced language models
+
+:::::: {.columns style="text-align: center; margin-top: 0.8em;"}
+::: {.column width="33%"}
+![](img/claude.png){height="80px"}\
+**Claude** - Anthropic\
+[(Claude Opus 5, Sonnet 5, Fable 5.1)]{style="font-size: 0.75em; color: #555;"}
+:::
+
+::: {.column width="33%"}
+![](img/chatgpt.png){height="80px"}\
+**ChatGPT** - OpenAI\
+[(GPT-5.5 Instant, GPT-5.6 Sol)]{style="font-size: 0.75em; color: #555;"}
+:::
+
+::: {.column width="33%"}
+![](img/copilot.png){height="80px"}\
+**Copilot** - Microsoft\
+[(GPT-5.6, Claude Opus 5)]{style="font-size: 0.75em; color: #555;"}
+:::
+::::::
+
+::: {style="margin-top: 1.2em; text-align: center;"}
+Conversational interface **+** specific ways to integrate them into code-based projects\
+[Claude Code \| Codex \| GitHub Copilot \| Etc]{style="font-size: 0.7em; color: #777;"}
+:::
+
+## AI *within everyone's reach* {.smaller}
+
+And also **open models**: downloadable models you can run on your own infrastructure (a laptop, an institute server, an already-approved cloud)
+
+::::: columns
+::: {.column width="55%"}
+**Who publishes them**
+
+- **US**: Llama 4 (Meta) · Gemma 4 (Google) · gpt-oss (OpenAI)
+- **Europe**: Mistral Small 4 (Mistral AI)
+- **China**: Qwen 3.x (Alibaba) · DeepSeek V4 · GLM-5.1 (Z.ai) · Kimi K2 (Moonshot)
+
+**What you need to run them**
+
+- Small ones: a laptop
+- Frontier ones: servers with several GPUs
+:::
+
+::: {.column width="45%"}
+**How they run**
+
+- On your own computer or on a server
+
+**What you gain**
+
+- Privacy: the data doesn't travel to a provider
+- No changing terms of service
+- Predictable cost: hardware, not tokens
+:::
+:::::
+
+::: {.fragment style="margin-top: 0.8em; text-align: center; font-style: italic;"}
+If it runs on your own infrastructure, the data never leaves the institution.
+:::
+
+## Platforms: describe the app and it appears (it even gets published!) {.smaller}
+
+::::: columns
+::: {.column width="55%"}
+- A chat and a live preview: you describe what you want in plain language and the platform generates the **frontend** and, depending on the platform, also the **backend, database and login**, and publishes it in one click
+- Nothing to install and nothing to *program*: the result is a usable product, accessible via a public URL
+- Examples: **Lovable** | **Base44** | **Bolt.new** | **Replit** |**Claude (artifacts)** | ....
+:::
+
+::: {.column width="45%"}
+![](img/plataformas.png){width="90%" style="border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.25);"}
+:::
+:::::
+
+## What kind of products come out of this? {.smaller}
+
+::::: columns
+::: {.column width="45%"}
+**Products such as**
+
+- Institutional websites and landing pages
+- Forms with validation and login
+- Dashboards
+- Prototypes to show a committee or funder
+:::
+
+::: {.column width="55%"}
+**Some examples I've seen**
+
+- Digital publication prototype for an academic organization
+- Student training site with a built-in LLM to answer questions
+- Tool for managing students and research projects
+:::
+:::::
+
+## In short: autonomy and speed {.nostretch}
+
+:::::: columns
+:::: {.column width="45%"}
+::: {style="margin-top: 2em;"}
+- Prototypes in days or hours
+- Faster iterations
+- Fewer (or no) intermediaries
+:::
+::::
+
+::: {.column width="55%"}
+![](img/vibrant_carousel.png){fig-align="center" width="50%"}
+:::
+::::::
+
+## Between prototype and production (1/2) {.smaller .nostretch}
+
+::::::: columns
+:::: {.column width="55%"}
+Some questions that often come up:
+
+::: incremental
+- How do I integrate this into my institution's platform?
+- How do I integrate specific tools: institutional login, scheduling, other platforms?
+- How do I pay for it once I outgrow the free plan, or when the terms of service change?
+:::
+::::
+
+:::: {.column width="45%"}
+::: {style="margin-top: 1.5em;"}
+![](img/rubik.png){fig-align="center" width="75%"}
+:::
+::::
+:::::::
+
+## Between prototype and production (2/2) {.smaller .nostretch}
+
+:::::::: columns
+::::: {.column width="55%"}
+:::: {style="font-size: 1.15em;"}
+::: incremental
+- How do I know that the data my users enter (or that I entered) is secure?
+- How hard would it be to build this from scratch in my organization?
+:::
+::::
+:::::
+
+:::: {.column width="45%"}
+::: {style="margin-top: 1.5em;"}
+![](img/rubik.png){fig-align="center" width="75%"}
+:::
+::::
+::::::::
+
+# 2 - Making the most of autonomy without creating problems (for ourselves)
+
+## Working with sensitive data
+
+**The regulatory floor**
+
+- By region: from very detailed frameworks to contexts with general regulation but no AI-specific guidance
+- Institutional: it may or may not exist
+- The absence of a rule that explicitly forbids something doesn't make it safe or ethical
+
+## Working with sensitive data {.smaller}
+
+**Your own floor** — three questions before you start
+
+::: incremental
+- Could someone's identity be reconstructed from the data I'm using?
+- Who will access the data, and in what environment?
+- Are there expectations about how the data will be handled?
+:::
+
+::: {.fragment style="margin-top: 0.8em; padding: 0.6em; background: #f5f5f5; border-radius: 8px; font-style: italic;"}
+Old problems, amplified: a Google Doc stays where you left it; a prompt can end up as training data, and an app generated with Lovable can publish its database to the internet.
+:::
+
+## A recent example (1/2): AI credits for rare disease research {.smaller}
+
+::::: columns
+::: {.column width="80%"}
+**Anthropic, AI for Science program** — thematic call (Jul 2026)
+
+- Up to **USD 50,000 in Claude credits** for six months; applications open until August 2, 2026
+- Two tracks: **basic science** and **early-stage biotechs** (starting doses, biomarkers, regulatory documentation)
+- The rationale: \~400 million people living with one of more than 7,000 rare diseases; small populations, scattered data, shared mechanisms that are hard to detect
+:::
+
+::: {.column width="20%"}
+![](https://www-cdn.anthropic.com/images/4zrzovbb/website/b1ce510c468b2920d4f8f61c17a50906801f939a-1000x1000.svg){width="100%"}
+:::
+:::::
+
+::: {style="text-align: right; font-size: 0.7em;"}
+Source: [anthropic.com/news/rare-disease-research-grants](https://www.anthropic.com/news/rare-disease-research-grants)
+:::
+
+## (2/2): "...need a safer framework for patient data" {.smaller}
+
+**Julien Gagneur** (Technical University of Munich)
+
+- The **terms are not fit for clinical or genomic patient data**: by accepting the credits, you guarantee that Anthropic may collect, analyze and **train models** on all inputs and outputs, under a **perpetual, irrevocable license**
+- Having permission to *analyze* data is not the same as having permission to *transfer* it to a third party: the governance burden and legal risk shift to the researcher and their institution
+
+## (2/2): "...need a safer framework for patient data" {.smaller}
+
+- An agent connected to your local environment reads files, runs commands and sends outputs using your credentials: **data can leave without anyone uploading it**, especially if code is approved without being reviewed
+- Proposal: a **protected research mode** — no training on or licensing of patient data, processing inside the approved environment, auditable controls and a clear data processing agreement. Open code, methods and evaluations
+
+::: {style="text-align: right; font-size: 0.7em;"}
+Source: [medium.com/\@gagneur — "…need a safer framework for patient data"](https://medium.com/@gagneur/anthropics-ai-for-science-rare-disease-research-grants-need-a-safer-framework-for-patient-data-de319ce8f05b)
+:::
+
+## Shadow AI: what are we talking about?
+
+::: {style="border-left: 6px solid #999; padding-left: 0.8em; margin-top: 0.6em; font-size: 1.1em;"}
+**Shadow AI** is the unsanctioned use of any artificial intelligence (AI) tool or application by employees or end users **without the formal approval or oversight of the information technology (IT) department.**
+:::
+
+::: {style="text-align: right; font-size: 0.7em; margin-top: 0.6em;"}
+— [IBM, “What is shadow AI?”](https://www.ibm.com/think/topics/shadow-ai) (2024)
+:::
+
+::: {.fragment style="margin-top: 1.2em;"}
+New risks: what data gets sent to commercial platforms and models, both voluntarily and involuntarily, and how a model's outputs get absorbed into institutional assets.
+:::
+
+## Shadow AI: the Samsung case (note: 2023) {.smaller}
+
+- **2022**: ChatGPT launches
+- **March 2023**: Samsung lifts an earlier restriction and allows ChatGPT
+- **March–April 2023**: one engineer pastes the full source code of a program from their semiconductor database to ask for a fix; another does the same with code for faulty equipment; a third uploads an entire meeting to have it write up the minutes
+- **Emergency measure**: a cap on prompt length
+- **May**: the ban is back, now covering every generative AI tool. The reason, according to an internal memo: whatever is sent is stored on external servers, is hard to retrieve or delete, and could end up exposed to other users
+
+::: {.fragment style="margin-top: 0.8em; text-align: center; font-style: italic;"}
+Nobody meant to leak anything: each of them was solving a work problem with the tool at hand
+:::
+
+::: {style="text-align: right; font-size: 0.7em; margin-top: 0.6em;"}
+Sources: [The Register, Apr 6, 2023](https://www.theregister.com/2023/04/06/samsung_reportedly_leaked_its_own) · [Gizmodo, Apr 2023](https://gizmodo.com/chatgpt-ai-samsung-employees-leak-data-1850307376) · [Bloomberg, May 2, 2023](https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak)
+:::
+
+## Why Shadow AI shows up in 2026 {.smaller .nostretch}
+
+::::: {.columns style="display: flex; align-items: center;"}
+::: {.column width="55%"}
+- Organizations without a dedicated IT team (or whose IT team has no capacity for groups interested in AI)
+- No funding for institutional AI
+- Lack of technical know-how to deploy AI within an institutional governance framework
+:::
+
+::: {.column width="45%"}
+![](img/open.png){fig-align="center" width="80%"}
+:::
+:::::
+
+## Where data can leak {.smaller}
+
+::::: columns
+::: {.column width="50%"}
+**What data?**
+
+*Confidential*
+
+- Credentials and keys: in a `.env` file, in the code, in a screenshot
+- Databases and spreadsheets with personal data (patients, participants, staff)
+- Medical records, results, samples
+
+*Internal*
+
+- Details about my projects or organization
+- Internal code, protocols and documents
+:::
+
+::: {.column width="50%"}
+**Through where?**
+
+- **The prompt**: “let me paste the table so you can help me”
+
+- **The shared folder**: an AI with access to a folder reads everything in it
+
+- **The terms of service**: the provider stores inputs and outputs and, depending on the plan, trains on them
+
+- **What the AI generates**: apps with a public URL and a database with no access rules; repos with credentials inside
+
+- **Integrations**: connectors to Drive, email or calendar; browser extensions
+:::
+:::::
+
+## Examples of university policies {.smaller}
+
+:::::: columns
+::: {.column width="33%"}
+[**Harvard**](https://www.huit.harvard.edu/ai/guidelines)
+
+- Nothing confidential in public tools: research data, medical information, personnel records (not even for meeting minutes!)
+- With default settings, whatever you share is not private
+- Approved tools, licensed by the university, specifically for sensitive data
+:::
+
+::: {.column width="36%"}
+[**Penn State**](https://researchsupport.psu.edu/orp/education/generative-ai-in-research/)
+
+- De-identification is not foolproof: AI can infer identities
+- Metadata identifies too: file names, geolocation, dates
+- Nothing identifiable without IRB approval
+- Researchers must obtain participants' consent if generative AI is used to analyze or process their data
+:::
+
+::: {.column width="30%"}
+[**Sheffield**](https://sheffield.ac.uk/rpi/pgr/guidance-pgrs-use-genai)
+
+- Sensitive or proprietary data: commercial AI tools are prohibited
+- [Self-guided risk and use assessment tool](https://shef.qualtrics.com/jfe/form/SV_djv3Eom5ZrQum6a)
+:::
+::::::
+
+## Minimum criteria before using AI with sensitive data (1/2) {.smaller}
+
+::: incremental
+1.  **What kind of data is it?**\
+    Classify it *before* opening the chat: public, internal or confidential
+2.  **With which tool?**\
+    One approved by your institution, under a contract that prohibits training on your data
+3.  **Who authorized it?**\
+    Patient or participant data → ethics committee + data agreement, before you start
+:::
+
+## Minimum criteria before using AI with sensitive data (2/2) {.smaller}
+
+::: incremental
+4.  **Can it be done with less?**\
+    Anonymized or synthetic samples; no identifying metadata
+5.  **What else can the tool do?**\
+    If it reads your data, consumes external content and can send things out → take away at least one of those
+6.  **Who reviews what comes out?**\
+    Before publishing: who can read the database? Are any keys exposed?
+:::
+
+::: {style="text-align: right; font-size: 0.7em; margin-top: 0.8em; line-height: 1.6;"}
+Sources:\
+[“Cuidado con lo que le confIAs” (in Spanish) — AEPD, 2026](https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-decalogo-recomendaciones-proteger-privacidad-al-usar-ia)\
+[“The lethal trifecta for AI agents” — S. Willison, 2025](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/)\
+[“Common security risks in vibe-coded apps” — Wiz Research, 2025](https://www.wiz.io/blog/common-security-risks-in-vibe-coded-apps)
+:::
+
+# Reflections and key questions
+
+## If what you do with AI will have real impact
+
+Any digital asset that affects people, projects or products in a research setting calls for assessing:
+
+- Sustainability in the medium (or short!) term
+- Security, sensitivity and institutional risk
+- **Your own knowledge gaps about the problem you're tackling with AI**
+
+## 
+
+![](img/comic.jpg){fig-align="center"}
+
+##  {.center}
+
+::: {style="font-size: 2em; font-weight: bold;"}
+But also..
+:::
+
+## Don't be a “meat proxy” {.smaller}
+
+![](img/gruhn_meatproxy.png){fig-align="center" width="65%" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"}
+
+::: {style="font-style: italic; border-left: 6px solid #999; padding-left: 0.8em; margin-top: 0.6em;"}
+By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.
+:::
+
+::: {style="text-align: right; font-size: 0.8em; margin-top: 0.4em;"}
+— Niklas Gruhn, "[Don't be a meat proxy](https://gruhn.me/blog/2026-08-03/)", August 3, 2026
+:::
+
+##  {.center}
+
+::: {style="font-size: 2em; font-weight: bold;"}
+On this, 3 key questions
+:::
+
+##  {.center}
+
+::: {style="font-size: 1.6em; text-align: center; margin-top: 1.5em;"}
+What value are we expected to bring\
+to the projects we work on?
+:::
+
+##  {.center}
+
+::: {style="font-size: 1.6em; text-align: center; margin-top: 1.5em;"}
+What is worth investing time in?
+:::
+
+##  {.center}
+
+::: {style="font-size: 1.6em; text-align: center; margin-top: 1.5em;"}
+Where data is stored is a decision
+:::
+
+::: {.fragment style="font-size: 2em; text-align: center; margin-top: 1em; font-weight: bold;"}
+Is it your decision?
+:::
+
+##  {.center}
+
+::: {style="font-size: 2.5em; text-align: center; margin-top: 1em;"}
+Thank you!
+:::
+
+::: {style="text-align: center; margin-top: 1.5em; font-size: 1.2em;"}
+**María Cristina Nanton**\
+[mcnanton\@gmail.com](mailto:mcnanton@gmail.com)
+:::

@@ -96,26 +96,26 @@ Y también **modelos abiertos**: descargables que se pueden correr en infraestru
 ::: {.column width="55%"}
 **Quién los publica**
 
--   **EE. UU.**: Llama 4 (Meta) · Gemma 4 (Google) · gpt-oss (OpenAI)
--   **Europa**: Mistral Small 4 (Mistral AI)
--   **China**: Qwen 3.x (Alibaba) · DeepSeek V4 · GLM-5.1 (Z.ai) · Kimi K2 (Moonshot)
+- **EE. UU.**: Llama 4 (Meta) · Gemma 4 (Google) · gpt-oss (OpenAI)
+- **Europa**: Mistral Small 4 (Mistral AI)
+- **China**: Qwen 3.x (Alibaba) · DeepSeek V4 · GLM-5.1 (Z.ai) · Kimi K2 (Moonshot)
 
 **Qué hace falta para correrlos**
 
--   Chicos: una notebook
--   De frontera: servidores con varias GPUs
+- Chicos: una notebook
+- De frontera: servidores con varias GPUs
 :::
 
 ::: {.column width="45%"}
 **Cómo se corren**
 
--   En tu computadora o en un servidor
+- En tu computadora o en un servidor
 
 **Qué se gana**
 
--   Privacidad: el dato no viaja a un proveedor
--   Sin términos de servicio cambiantes
--   Costo previsible: hardware, no tokens
+- Privacidad: el dato no viaja a un proveedor
+- Sin términos de servicio cambiantes
+- Costo previsible: hardware, no tokens
 :::
 :::::
 
@@ -123,19 +123,13 @@ Y también **modelos abiertos**: descargables que se pueden correr en infraestru
 Si corre en infra propia, el dato no sale de la institución.
 :::
 
-## Plataformas de «vibe coding»: describís la app y aparece (hasta se publica!) {.smaller}
+## Plataformas: describís la app y aparece (hasta se publica!) {.smaller}
 
 ::::: columns
 ::: {.column width="55%"}
--   Un chat y una vista previa en vivo: describís lo que querés en lenguaje natural y la plataforma genera **frontend, backend, base de datos y login**, y lo publica con un clic
--   No hay nada que instalar ni *programar*: el resultado es un producto usable y accesible via URL pública
--   Ejemplos\
-    **Lovable**\
-    **Base44**\
-    **Bolt.new**\
-    **Replit**\
-    **Claude Code**\
-    ...
+- Un chat y una vista previa en vivo:: describís lo que querés en lenguaje natural y la plataforma genera el **frontend** y, según cuál sea, también **backend, base de datos y login**, y lo publica con un clic
+- No hay nada que instalar ni *programar*: el resultado es un producto usable y accesible via URL pública
+- Ejemplos: **Lovable** | **Base44** | **Bolt.new** | **Replit** |**Claude (artifacts)** | ....
 :::
 
 ::: {.column width="45%"}
@@ -149,77 +143,75 @@ Si corre en infra propia, el dato no sale de la institución.
 ::: {.column width="45%"}
 **Productos como**
 
--   Sitios institucionales y landings
--   Formularios con validación y login
--   Tableros y dashboards
--   Prototipos para mostrar a un comité o financiador
+- Sitios institucionales y landings
+- Formularios con validación y login
+- Tableros y dashboards
+- Prototipos para mostrar a un comité o financiador
 :::
 
 ::: {.column width="55%"}
-**Algunos ejemplos que ví**
+**Algunos ejemplos que vi**
 
--   Prototipo de publicación digital para organización académica
--   Sitio para la formación de estudiantes, con LLM integrado para responder preguntas
--   Herramienta para gestión de alumnos y proyectos de investigación
+- Prototipo de publicación digital para organización académica
+- Sitio para la formación de estudiantes, con LLM integrado para responder preguntas
+- Herramienta para gestión de alumnos y proyectos de investigación
 :::
 :::::
 
 ## En resumen: autonomía y velocidad {.nostretch}
 
-::::: columns
-::: {.column width="45%"}
-
+:::::: columns
+:::: {.column width="45%"}
 ::: {style="margin-top: 2em;"}
--   Prototipos en días u horas
--   Iteraciones más rápidas
--   Menos (o nada de) intermediarios
+- Prototipos en días u horas
+- Iteraciones más rápidas
+- Menos (o nada de) intermediarios
 :::
-
-:::
+::::
 
 ::: {.column width="55%"}
 ![](img/vibrant_carousel.png){fig-align="center" width="50%"}
 :::
-:::::
+::::::
 
 ## Entre prototipo y producción (1/2) {.smaller .nostretch}
 
-::::: columns
-::: {.column width="55%"}
+::::::: columns
+:::: {.column width="55%"}
 Algunas preguntas que suelen presentarse:
 
-::: {.incremental}
--   ¿Cómo integro esto en la plataforma de mi institución?
--   ¿Cómo integro herramientas específicas: login institucional, calendarización, otras plataformas?
--   ¿Cómo lo pago cuando supero el plan gratuito o cambian los términos del servicio?
+::: incremental
+- ¿Cómo integro esto en la plataforma de mi institución?
+- ¿Cómo integro herramientas específicas: login institucional, calendarización, otras plataformas?
+- ¿Cómo lo pago cuando supero el plan gratuito o cambian los términos del servicio?
 :::
-:::
-
-::: {.column width="45%"}
-:::: {style="margin-top: 1.5em;"}
-![](img/rubik.png){fig-align="center" width="75%"}
 ::::
+
+:::: {.column width="45%"}
+::: {style="margin-top: 1.5em;"}
+![](img/rubik.png){fig-align="center" width="75%"}
 :::
-:::::
+::::
+:::::::
 
 ## Entre prototipo y producción (2/2) {.smaller .nostretch}
 
-::::: columns
-::: {.column width="55%"}
+:::::::: columns
+::::: {.column width="55%"}
 :::: {style="font-size: 1.15em;"}
-::: {.incremental}
--   ¿Cómo sé que los datos que ingresan mis usuarios (o los que yo ingresé) están seguros?
--   ¿Qué tan difícil es levantar esto de cero en mi organización?
+::: incremental
+- ¿Cómo sé que los datos que ingresan mis usuarios (o los que yo ingresé) están seguros?
+- ¿Qué tan difícil es levantar esto de cero en mi organización?
 :::
 ::::
-:::
-
-::: {.column width="45%"}
-:::: {style="margin-top: 1.5em;"}
-![](img/rubik.png){fig-align="center" width="75%"}
-::::
-:::
 :::::
+
+:::: {.column width="45%"}
+::: {style="margin-top: 1.5em;"}
+![](img/rubik.png){fig-align="center" width="75%"}
+:::
+::::
+::::::::
 
 # 2 - Aprovechar la autonomía sin generar(nos) un problema
 
@@ -227,18 +219,18 @@ Algunas preguntas que suelen presentarse:
 
 **Piso normativo**
 
--   Por región: desde marcos muy detallados hasta contextos con regulación general pero sin guías específicas sobre IA
--   Institucional: puede existir o no
--   Que no haya una norma que lo prohíba explícitamente no lo hace seguro o ético
+- Por región: desde marcos muy detallados hasta contextos con regulación general pero sin guías específicas sobre IA
+- Institucional: puede existir o no
+- Que no haya una norma que lo prohíba explícitamente no lo hace seguro o ético
 
 ## Trabajo con datos sensibles {.smaller}
 
 **Piso propio** — tres preguntas antes de empezar
 
 ::: incremental
--   ¿Puedo reconstruir la identidad de una persona con los datos que utilizo?
--   ¿Quién va a acceder a los datos y en qué entorno?
--   ¿Hay expectativas sobre cómo se tratan?
+- ¿Puedo reconstruir la identidad de una persona con los datos que utilizo?
+- ¿Quién va a acceder a los datos y en qué entorno?
+- ¿Hay expectativas sobre cómo se tratan?
 :::
 
 ::: {.fragment style="margin-top: 0.8em; padding: 0.6em; background: #f5f5f5; border-radius: 8px; font-style: italic;"}
@@ -251,9 +243,9 @@ Viejos problemas, amplificados: un Google Doc se queda donde lo dejaste; un prom
 ::: {.column width="80%"}
 **Anthropic, programa AI for Science** — convocatoria temática (jul 2026)
 
--   Hasta **USD 50.000 en créditos de Claude** por seis meses; postulación hasta el 2 de agosto de 2026
--   Dos tracks: **ciencia básica** y **biotechs en etapa temprana** (dosis iniciales, biomarcadores, documentación regulatoria)
--   El argumento: \~400 millones de personas con alguna de más de 7.000 enfermedades raras; poblaciones chicas, datos dispersos, mecanismos compartidos difíciles de detectar
+- Hasta **USD 50.000 en créditos de Claude** por seis meses; postulación hasta el 2 de agosto de 2026
+- Dos tracks: **ciencia básica** y **biotechs en etapa temprana** (dosis iniciales, biomarcadores, documentación regulatoria)
+- El argumento: \~400 millones de personas con alguna de más de 7.000 enfermedades raras; poblaciones chicas, datos dispersos, mecanismos compartidos difíciles de detectar
 :::
 
 ::: {.column width="20%"}
@@ -269,13 +261,13 @@ Fuente: [anthropic.com/news/rare-disease-research-grants](https://www.anthropic.
 
 **Julien Gagneur** (Universidad Técnica de Múnich)
 
--   Los **términos no sirven para datos clínicos o genómicos de pacientes**: quien acepta créditos garantiza que Anthropic puede recolectar, analizar y **entrenar modelos** con todos los inputs y outputs, con **licencia perpetua e irrevocable**
--   Tener permiso para *analizar* datos no es tener permiso para *transferirlos* a un tercero: la carga de gobernanza y el riesgo legal pasan al investigador y a su institución
+- Los **términos no sirven para datos clínicos o genómicos de pacientes**: quien acepta créditos garantiza que Anthropic puede recolectar, analizar y **entrenar modelos** con todos los inputs y outputs, con **licencia perpetua e irrevocable**
+- Tener permiso para *analizar* datos no es tener permiso para *transferirlos* a un tercero: la carga de gobernanza y el riesgo legal pasan al investigador y a su institución
 
 ## (2/2): "falta un marco seguro para datos de pacientes" {.smaller}
 
--   Un agente conectado al entorno local lee archivos, corre comandos y envía outputs con tus credenciales: **el dato puede salir sin que nadie lo suba**, sobre todo si se aprueba código sin revisarlo
--   Propuesta: un **modo de investigación protegido** — sin entrenamiento ni licencia sobre datos de pacientes, procesamiento dentro del entorno aprobado, controles auditables y un acuerdo de procesamiento claro. Código, métodos y evaluaciones, abiertos
+- Un agente conectado al entorno local lee archivos, corre comandos y envía outputs con tus credenciales: **el dato puede salir sin que nadie lo suba**, sobre todo si se aprueba código sin revisarlo
+- Propuesta: un **modo de investigación protegido** — sin entrenamiento ni licencia sobre datos de pacientes, procesamiento dentro del entorno aprobado, controles auditables y un acuerdo de procesamiento claro. Código, métodos y evaluaciones, abiertos
 
 ::: {style="text-align: right; font-size: 0.7em;"}
 Fuente: [medium.com/\@gagneur — "…need a safer framework for patient data"](https://medium.com/@gagneur/anthropics-ai-for-science-rare-disease-research-grants-need-a-safer-framework-for-patient-data-de319ce8f05b)
@@ -297,11 +289,11 @@ Riesgos nuevos: qué datos se envían a plataformas y modelos comerciales de man
 
 ## Shadow AI: el caso Samsung (ojo: 2023) {.smaller}
 
--   **2022**: lanzamiento ChatGPT
--   **Marzo 2023**: Samsung levanta una restricción previa y habilita ChatGPT
--   **Marzo-Abril 2023**: un ingeniero pega el código fuente completo de un programa de su base de datos de semiconductores para pedir una corrección; otro hace lo mismo con el código de un equipo defectuoso; un tercero sube una reunión entera para que le arme las minutas
--   **Medida de emergencia**: limitación de largo de prompts
--   **Mayo**: vuelve la prohibición, ahora para toda herramienta de IA generativa. El motivo, según memo interno: lo que se transmite queda en servidores externos, es difícil de recuperar o borrar y podría terminar expuesto a otros usuarios
+- **2022**: lanzamiento ChatGPT
+- **Marzo 2023**: Samsung levanta una restricción previa y habilita ChatGPT
+- **Marzo-Abril 2023**: un ingeniero pega el código fuente completo de un programa de su base de datos de semiconductores para pedir una corrección; otro hace lo mismo con el código de un equipo defectuoso; un tercero sube una reunión entera para que le arme las minutas
+- **Medida de emergencia**: limitación de largo de prompts
+- **Mayo**: vuelve la prohibición, ahora para toda herramienta de IA generativa. El motivo, según memo interno: lo que se transmite queda en servidores externos, es difícil de recuperar o borrar y podría terminar expuesto a otros usuarios
 
 ::: {.fragment style="margin-top: 0.8em; text-align: center; font-style: italic;"}
 Nadie quiso filtrar nada: cada uno estaba resolviendo un problema de trabajo con la herramienta que tenía a mano
@@ -315,9 +307,9 @@ Fuentes: [The Register, 6/4/2023](https://www.theregister.com/2023/04/06/samsung
 
 ::::: {.columns style="display: flex; align-items: center;"}
 ::: {.column width="55%"}
--   Organizaciones sin equipo de IT dedicado (o sin disponibilidad para equipos interesados en IA)
--   Falta de financiación para IA institucional
--   Falta de conocimiento técnico para desplegar IAs en un marco de gobernanza institucional
+- Organizaciones sin equipo de IT dedicado (o sin disponibilidad para equipos interesados en IA)
+- Falta de financiación para IA institucional
+- Falta de conocimiento técnico para desplegar IAs en un marco de gobernanza institucional
 :::
 
 ::: {.column width="45%"}
@@ -333,28 +325,28 @@ Fuentes: [The Register, 6/4/2023](https://www.theregister.com/2023/04/06/samsung
 
 *Confidencial*
 
--   Credenciales y claves: en un `.env`, en el código, en una captura de pantalla
--   Bases de datos y planillas con datos de personas (pacientes, participantes, personal)
--   Historias clínicas, resultados, muestras
+- Credenciales y claves: en un `.env`, en el código, en una captura de pantalla
+- Bases de datos y planillas con datos de personas (pacientes, participantes, personal)
+- Historias clínicas, resultados, muestras
 
-*Privado*
+*Interno*
 
--   Características de mis proyectos u organización
--   Código, protocolos y documentos internos
+- Características de mis proyectos u organización
+- Código, protocolos y documentos internos
 :::
 
 ::: {.column width="50%"}
 **¿Por dónde?**
 
--   **El prompt**: «te pego la tabla así me ayudás»
+- **El prompt**: «te pego la tabla así me ayudás»
 
--   **El directorio compartido**: IA con acceso a una carpeta lee todo lo que hay ahí
+- **El directorio compartido**: IA con acceso a una carpeta lee todo lo que hay ahí
 
--   **Los términos del servicio**: el proveedor guarda inputs y outputs y, según el plan, entrena con ellos
+- **Los términos del servicio**: el proveedor guarda inputs y outputs y, según el plan, entrena con ellos
 
--   **Lo que la IA genera**: apps con URL pública y base de datos sin reglas de acceso; repos con credenciales adentro
+- **Lo que la IA genera**: apps con URL pública y base de datos sin reglas de acceso; repos con credenciales adentro
 
--   **Las integraciones**: conectores a Drive, mail o calendario; extensiones del navegador
+- **Las integraciones**: conectores a Drive, mail o calendario; extensiones del navegador
 :::
 :::::
 
@@ -364,25 +356,25 @@ Fuentes: [The Register, 6/4/2023](https://www.theregister.com/2023/04/06/samsung
 ::: {.column width="33%"}
 [**Harvard**](https://www.huit.harvard.edu/ai/guidelines)
 
--   Nada confidencial en herramientas públicas: datos de investigación, información médica, registros de personal (ni para minutas de reuniones!)
--   Con la configuración por defecto, lo que se comparte no es privado
--   Herramientas aprobadas, contratadas por universidad, específicas para datos sensibles
+- Nada confidencial en herramientas públicas: datos de investigación, información médica, registros de personal (ni para minutas de reuniones!)
+- Con la configuración por defecto, lo que se comparte no es privado
+- Herramientas aprobadas, contratadas por universidad, específicas para datos sensibles
 :::
 
 ::: {.column width="36%"}
 [**Penn State**](https://researchsupport.psu.edu/orp/education/generative-ai-in-research/)
 
--   Desidentificar no es infalible: la IA puede inferir identidades
--   Los metadatos también identifican: nombres de archivo, geolocalización, fechas
--   Nada identificable sin aprobación del CE
--   Investigadores deben obtener consentimiento de participantes si se usa IA generativa para analizar o procesar sus datos
+- Desidentificar no es infalible: la IA puede inferir identidades
+- Los metadatos también identifican: nombres de archivo, geolocalización, fechas
+- Nada identificable sin aprobación del CE
+- Investigadores deben obtener consentimiento de participantes si se usa IA generativa para analizar o procesar sus datos
 :::
 
 ::: {.column width="30%"}
 [**Sheffield**](https://sheffield.ac.uk/rpi/pgr/guidance-pgrs-use-genai)
 
--   Datos sensibles o propietarios: prohibidas las IAs comerciales
--   [Herramienta auto guiada de evaluación de riesgos y usos](https://shef.qualtrics.com/jfe/form/SV_djv3Eom5ZrQum6a)
+- Datos sensibles o propietarios: prohibidas las IAs comerciales
+- [Herramienta auto guiada de evaluación de riesgos y usos](https://shef.qualtrics.com/jfe/form/SV_djv3Eom5ZrQum6a)
 :::
 ::::::
 
@@ -421,9 +413,9 @@ Fuentes:\
 
 Cualquier activo digital que afecte personas, proyectos o productos de una investigación requiere evaluar:
 
--   Sostenibilidad a mediano (o corto!) plazo
--   Seguridad, sensiblidad y riesgo institucional
--   **Tus propios gaps de conocimiento respecto al problema abordado con la IA**
+- Sostenibilidad a mediano (o corto!) plazo
+- Seguridad, sensibilidad y riesgo institucional
+- **Tus propios gaps de conocimiento respecto al problema abordado con la IA**
 
 ## 
 
